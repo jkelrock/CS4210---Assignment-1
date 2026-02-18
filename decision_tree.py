@@ -1,9 +1,9 @@
 # -------------------------------------------------------------------------
-# AUTHOR: your name
-# FILENAME: title of the source file
-# SPECIFICATION: description of the program
+# AUTHOR: Sofia Truong
+# FILENAME: decision_tree
+# SPECIFICATION: ID3 Algorithm that takes a dataset from a .csv file, and creates a decision tree using entropy and IG.
 # FOR: CS 4210- Assignment #1
-# TIME SPENT: how long it took you to complete the assignment
+# TIME SPENT: 30 minutes.
 # -----------------------------------------------------------*/
 
 # IMPORTANT NOTE: DO NOT USE ANY ADVANCED PYTHON LIBRARY TO COMPLETE THIS CODE SUCH AS numpy OR pandas. You have to work here only with standard
@@ -77,3 +77,4 @@ tree.plot_tree(clf,
                rounded=True)
 
 plt.show()
+
